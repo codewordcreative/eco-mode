@@ -1,6 +1,20 @@
+I've deliberately used a permissive MIT License to encourage broad adoption of eco
+mode everywhere. While not required under the MIT License, I’d still 
+appreciate it if you could kindly credit me when redistributing this code of 
+modifications thereof, and or let me know if you’re redistributing it. To be 
+honest, it’ll make me happy.
+
+Added because of past experience with plagiarists: Obviously, 
+you can't claim credit for creating the code or the icons in the first place. I 
+made them, and it took a lot of time and hyperfocus. Reuse, education, and 
+learning from my techniques is encouraged. Deceptive behaviour is not.
+
+
+---
+
 MIT License
 
-Copyright (c) 2025 Rose Newell
+Copyright (c) 2025 Rosalyn Newell of codewordcreative.com (also known as Rose Newell)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -11,6 +25,10 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
+
+All brand icons are trademarks of their respective owners. These icons are used 
+only for referential purposes in user interface design. Use does not imply 
+endorsement or affiliation.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
