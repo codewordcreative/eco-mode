@@ -14,9 +14,8 @@ Eco Mode is a repo of code snippets and assets to support light/dark/eco mode su
 What works for your site will vary. But I figured it would help to share some simplified versions right here.
 
 ### Example implementations
-[My website, codeword: creative](https://codewordcreative.com)
-
-[Client website, Crossing Borders: Translating Turkish](https://translatingturkish.com)
+* [My website, codeword: creative](https://codewordcreative.com)
+* [Client website, Crossing Borders: Translating Turkish](https://translatingturkish.com)
 
 #### Less mature, single-page examples
 [Susty Icons CSS Playground](https://codewordcreative.com/susty-icons-css-playground/)
@@ -26,8 +25,8 @@ What works for your site will vary. But I figured it would help to share some si
 More to follow soon, I hope!
 
 ### Links
-[Susty Icons Github, should you want more icon options](https://github.com/codewordcreative/susty-icons)
-[Web AIM Contrast Checker, to be sure your colour schemes are accessible](https://webaim.org/resources/contrastchecker/)
+* [Susty Icons Github, should you want more icon options](https://github.com/codewordcreative/susty-icons)
+* [Web AIM Contrast Checker, to be sure your colour schemes are accessible](https://webaim.org/resources/contrastchecker/)
 
 
 
