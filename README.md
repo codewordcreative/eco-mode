@@ -18,9 +18,8 @@ What works for your site will vary. But I figured it would help to share some si
 * [Client website, Crossing Borders: Translating Turkish](https://translatingturkish.com)
 
 #### Less mature, single-page examples
-[Susty Icons CSS Playground](https://codewordcreative.com/susty-icons-css-playground/)
-
-[Susty Icons preview variants page](https://codewordcreative.github.io/susty-icons/preview-variants.html)
+* [Susty Icons CSS Playground](https://codewordcreative.com/susty-icons-css-playground/)
+* [Susty Icons preview variants page](https://codewordcreative.github.io/susty-icons/preview-variants.html)
 
 More to follow soon, I hope!
 
