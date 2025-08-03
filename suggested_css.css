@@ -2,6 +2,25 @@
 It would be great if others share and contribute ideas of their own. :)  My CSS will inevitably be inheriting some defaults, so I can only really give a vague idea of the classes and basic ideas you might
 want to cover.
 
+/* Generally, you should probably put the colours first, then this high up, but not as high as all your global variables. 
+But I really don't want people to miss this, so I'm including the animation override content here.
+This is a rather aggressive approach - you can target specific elements rather than just * (all), but this also handles hover and similar effects, too.
+If you use JS animations, you'll need to deactivate those in a similar way.*/
+@media(prefers-reduced-motion:reduce) {
+	* {
+		animation: none !important;
+		transition: none !important;
+		transform: none !important
+	}
+}
+
+.eco,
+.eco * {
+	animation: none !important;
+	transition: none !important;
+	transform: none !important
+}
+
 /* Define your default (theme) colours here. 
 In my case, I use dark as my default. But the system works the same if you do the opposite, just change the name of light to dark and adjust the code accordingly. */
 
