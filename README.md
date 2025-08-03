@@ -25,5 +25,11 @@ What works for your site will vary. But I figured it would help to share some si
 
 More to follow soon, I hope!
 
+### Links
+[Susty Icons Github, should you want more icon options](https://github.com/codewordcreative/susty-icons)
+[Web AIM Contrast Checker, to be sure your colour schemes are accessible](https://webaim.org/resources/contrastchecker/)
+
+
+
 --- 
 Thanks also to Nick Lewis for inspiring me with mad use of variables, and to various members of the W3C Sustainable Web Interest Group for bouncing ideas around about Eco mode, especially Tantek, Hidde, and Alex.
