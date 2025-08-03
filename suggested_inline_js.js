@@ -1,0 +1,1 @@
+<script>const match=document.cookie.match(/theme=(light|eco)/);match?document.documentElement.classList.add(match[1]):window.matchMedia?.("(prefers-color-scheme: light)").matches&&document.documentElement.classList.add("light");</script>
