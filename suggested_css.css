@@ -1,0 +1,110 @@
+/* PLEASE DON'T USE AS IS. Your site will look ugly and I don't want the blame. ;) I've just shared a simplified version of the relevant parts of my own CSS to give you some idea how to put it together.
+It would be great if others share and contribute ideas of their own. :)  My CSS will inevitably be inheriting some defaults, so I can only really give a vague idea of the classes and basic ideas you might
+want to cover.
+
+/* Define your default (theme) colours here. 
+In my case, I use dark as my default. But the system works the same if you do the opposite, just change the name of light to dark and adjust the code accordingly. */
+
+root {
+/* Suggested clamped icon size included here for automatic responsiveness.*/
+  --icon: clamp(32px, 5vw, 40px);
+  --icon-s: clamp(28px, 4vw, 36px);
+	--bg1: purple;
+	--text: white;
+	--box-bg: violet;
+	--links: pink;
+}
+
+/* Use PURE black where able for .eco mode, as it allows some devices to fully turn off the pixel.
+For colours, green is a solid choice for accessibility and low energy, as the human eye perceives it well (unlike red).
+Blue is generally worse for energy use. But in general, for text and smaller elements, it is less critical than avoiding
+large white or light-blue areas.*/
+
+/* Note that when dark mode is the default, more of the defaults set in the root (dark mode) will be appropriate for eco mode, too. 
+If switching, to light as the default, you may need to set more variables.*/
+.eco {
+	--bg1: #000;
+ 	--box-bg: #000;
+	--text: green
+}
+
+.light {
+	--bg1: yellow;
+	--text: purple;
+	--box-bg: vanilla;
+	--links: blue;
+}
+
+/* Styöe the way you like. You can set specific variables for colours, obviously. 
+Note that when using solid and pure outline (stroke) icons in the same design, as in this example, you'll need to adjust the CSS
+to set fill to none for those. In this example, the #inf element is adjusted accordingly.*/
+
+.icon {
+	height: var(--icon);
+	width: var(--icon);
+	fill: var(--text);
+	stroke: var(--text);
+	stroke-width: 5;
+	stroke-linecap: round;
+	stroke-linejoin: round
+}
+
+.theme-button:hover .icon {
+	fill: var(--bg1);
+	stroke: var(--text)
+}
+
+.theme-button:hover {
+	background-color: var(--text)
+}
+
+#inf {
+	width: var(--icon-s)
+	height: var(--icon-s)
+	fill: none
+}
+
+#tooltipToggle {
+	padding: 0;
+	margin: 10px
+}
+
+/* There may be better ways to position the info toggle - do share! */
+.tooltip-content {
+	position: absolute;
+	top: 80px;
+	left: 10%;
+	border: 1px solid var(--text);
+	padding: .5rem;
+	max-width: 200px;
+	font-size: clamp(.8rem, 1.5vw, .9rem);
+	z-index: 9999;
+	cursor: pointer;
+	background: var(--bg1)
+}
+
+#theme,
+.contrast {
+	display: flex;
+	padding: 0;
+	align-items: center;
+	justify-content: center
+}
+
+.contrast {
+	transition: .5s;
+	border-radius: 15px;
+	border: 1px solid var(--text);
+	cursor: pointer;
+	align-self: center
+}
+
+.visually-hidden {
+	position: absolute;
+	left: -9999px
+}
+
+#theme {
+	flex-direction: row;
+	gap: .4rem;
+}
