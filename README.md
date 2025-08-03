@@ -1,5 +1,14 @@
 # Eco Mode: theme switcher and preferences advice
-Eco Mode is a repo of code snippets and assets to support light/dark/eco mode support. With sustainable and efficient SVGs, JS, HTML, CSS snippets, and implementation advice
+Eco Mode is a repo of code snippets and assets to support light/dark/eco mode support. With sustainable and efficient SVGs, JS, HTML, CSS snippets, and implementation advice (as comments in the suggested CSS, mainly).
+
+## Demo pics
+
+![Dark mode](https://raw.githubusercontent.com/codewordcreative/eco-mode/refs/heads/main/demo-pics/codeword-dark.webp)
+![Light mode](https://raw.githubusercontent.com/codewordcreative/eco-mode/refs/heads/main/demo-pics/codeword-light.webp)
+![Eco mode](https://raw.githubusercontent.com/codewordcreative/eco-mode/refs/heads/main/demo-pics/codeword-eco.webp)
+![Dark mode close-up](https://raw.githubusercontent.com/codewordcreative/eco-mode/refs/heads/main/demo-pics/codeword-dark-info.webp)
+![Light mode close-up](https://raw.githubusercontent.com/codewordcreative/eco-mode/refs/heads/main/demo-pics/codeword-light-info.webp)
+![Eco mode close-up](https://raw.githubusercontent.com/codewordcreative/eco-mode/refs/heads/main/demo-pics/codeword-eco-info.webp)
 
 ## Suggested implementations only
 What works for your site will vary. But I figured it would help to share some simplified versions right here.
