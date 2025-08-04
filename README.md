@@ -30,4 +30,4 @@ More to follow soon, I hope!
 
 
 --- 
-Thanks also to Nick Lewis for inspiring me with mad use of variables, and to various members of the W3C Sustainable Web Interest Group for bouncing ideas around about Eco mode, especially Tantek, Hidde, and Alex.
+Thanks also to Nick Lewis for inspiring me with mad use of variables, and to various members of the W3C Sustainable Web Interest Group for bouncing ideas around about Eco mode, especially Tantek, Hidde, and Alex. Update: Thanks to Alex Dawson for the accessibility review/amendments!
