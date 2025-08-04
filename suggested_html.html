@@ -1,32 +1,36 @@
-<fieldset aria-label="Select theme" id="theme">
-    <legend class="visually-hidden">Theme selection</legend>
+<fieldset id="theme">
+    <legend class="visually-hidden">Theme switcher: select a theme</legend>
 
-    <input aria-checked="false" hidden id="theme-light" name="theme" type="radio" value="light">
+    <input hidden id="theme-light" name="theme" type="radio" value="light">
     <label class="contrast theme-button" for="theme-light">
-        <svg aria-label="Switch to light theme" class="icon" focusable="false" role="img">
+        <svg class="icon" focusable="false" role="img">
             <use href="/assets/all-svgs.svg#sun"></use>
         </svg>
+        <span class="visually-hidden">Switch to light theme</span>
     </label>
 
-    <input aria-checked="true" hidden id="theme-dark" name="theme" type="radio" value="dark">
+    <input hidden id="theme-dark" name="theme" type="radio" value="dark">
     <label class="contrast theme-button" for="theme-dark">
-        <svg aria-label="Switch to dark theme" class="icon" focusable="false" role="img">
+        <svg class="icon" focusable="false" role="img">
             <use href="/assets/all-svgs.svg#moon"></use>
         </svg>
+        <span class="visually-hidden">Switch to dark theme</span>
     </label>
 
-    <input aria-checked="false" hidden id="theme-eco" name="theme" type="radio" value="eco">
+    <input hidden id="theme-eco" name="theme" type="radio" value="eco">
     <label class="contrast theme-button" for="theme-eco">
-        <svg aria-label="Switch to low-energy theme" class="icon" focusable="false" role="img">
+        <svg class="icon" focusable="false" role="img">
             <use href="/assets/all-svgs.svg#leaf"></use>
         </svg>
+        <span class="visually-hidden">Switch to low-energy theme</span>
     </label>
 
     <div id="about-themes">
-        <button aria-controls="tooltipContent" aria-expanded="false" class="contrast theme-button" id="tooltipToggle">
-            <svg aria-label="About themes" class="icon" focusable="false" role="img" id="inf">
+        <button class="contrast theme-button" id="tooltipToggle">
+            <svg class="icon" focusable="false" role="img" id="inf">
                 <use href="/assets/all-svgs.svg#info2"></use>
             </svg>
+            <span class="visually-hidden">About themes</span>
         </button>
         <div id="tooltipContent" class="tooltip-content" hidden role="tooltip">
             Read me the way you want: light, dark, or low-energy eco mode.
